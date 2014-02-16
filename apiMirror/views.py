@@ -16,6 +16,7 @@ def API(request, arg):
 			if not path.endswith('/'):
 				path = path + '/'
 			oramap = path + item.strip()
+			break
 	if oramap == "":
 		raise Http404
 	response = StreamingHttpResponse(open(oramap), content_type='application/zip')
