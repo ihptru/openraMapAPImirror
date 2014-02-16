@@ -1,7 +1,7 @@
 openraMapAPImirror
 ==================
 
-See https://github.com/ihptru/OpenRA-Content-Engine/wiki/Set-up-MapAPI-mirror for details
+See https://github.com/OpenRAOpenRA-Content-Engine/wiki/Set-up-MapAPI-mirror for details
 
 This project only requires Django Web Framework to be installed.
 
