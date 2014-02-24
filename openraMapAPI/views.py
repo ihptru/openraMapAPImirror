@@ -20,5 +20,5 @@ def API(request, arg):
 	if oramap == "":
 		raise Http404
 	response = StreamingHttpResponse(open(oramap), content_type='application/zip')
-	response['Content-Disposition'] = 'attachment; filename = "%s"' % served_name
+	response['Content-Disposition'] = 'attachment; filename = %s' % served_name
 	return response
