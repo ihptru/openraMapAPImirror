@@ -4,7 +4,7 @@ from django.conf import settings
 from django.http import Http404
 
 def index(request):
-    return HttpResponseRedirect('https://github.com/OpenRA/OpenRA-Content-Engine/wiki/Set-up-MapAPI-mirror')
+    return HttpResponseRedirect('https://github.com/OpenRA/OpenRA-Resources/wiki/Set-up-MapAPI-mirror')
 
 def API(request, arg):
 	path = settings.PATH_TO_MAPS
